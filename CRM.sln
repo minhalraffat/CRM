@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM", "CRM\CRM.csproj", "{880489DD-F98B-4910-A6C6-25EE905D23EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMDLL", "CRMDLL\CRMDLL.csproj", "{57096633-CC68-42B2-AEEA-52FA2F1499EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MintCRMChat.Interfaces", "eStreamChat.Interfaces\MintCRMChat.Interfaces.csproj", "{1CC1BDD6-C0CF-4D68-A37F-09C7EA866F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MINTCRMChat.SampleProviders", "eStreamChat.SampleProviders\MINTCRMChat.SampleProviders.csproj", "{873690D8-A080-46CE-B77F-58CAB590A09A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{880489DD-F98B-4910-A6C6-25EE905D23EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880489DD-F98B-4910-A6C6-25EE905D23EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880489DD-F98B-4910-A6C6-25EE905D23EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880489DD-F98B-4910-A6C6-25EE905D23EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57096633-CC68-42B2-AEEA-52FA2F1499EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57096633-CC68-42B2-AEEA-52FA2F1499EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57096633-CC68-42B2-AEEA-52FA2F1499EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57096633-CC68-42B2-AEEA-52FA2F1499EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC1BDD6-C0CF-4D68-A37F-09C7EA866F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC1BDD6-C0CF-4D68-A37F-09C7EA866F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC1BDD6-C0CF-4D68-A37F-09C7EA866F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC1BDD6-C0CF-4D68-A37F-09C7EA866F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873690D8-A080-46CE-B77F-58CAB590A09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873690D8-A080-46CE-B77F-58CAB590A09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873690D8-A080-46CE-B77F-58CAB590A09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873690D8-A080-46CE-B77F-58CAB590A09A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

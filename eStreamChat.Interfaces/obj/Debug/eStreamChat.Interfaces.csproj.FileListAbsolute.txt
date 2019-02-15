@@ -1,0 +1,5 @@
+E:\project 28-5-2010\CRM 28 May\eStreamChat.Interfaces\bin\Debug\eStreamChat.Interfaces.dll
+E:\project 28-5-2010\CRM 28 May\eStreamChat.Interfaces\bin\Debug\eStreamChat.Interfaces.pdb
+E:\project 28-5-2010\CRM 28 May\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.csprojResolveAssemblyReference.cache
+E:\project 28-5-2010\CRM 28 May\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.dll
+E:\project 28-5-2010\CRM 28 May\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.pdb

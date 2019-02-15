@@ -1,0 +1,13 @@
+E:\chats estream\eStreamChat\bin\eStreamChat.dll.config
+E:\chats estream\eStreamChat\bin\eStreamChat.dll
+E:\chats estream\eStreamChat\bin\eStreamChat.pdb
+E:\chats estream\eStreamChat\bin\eStreamChat.Interfaces.dll
+E:\chats estream\eStreamChat\bin\eStreamChat.SampleProviders.dll
+E:\chats estream\eStreamChat\bin\Microsoft.Practices.ServiceLocation.dll
+E:\chats estream\eStreamChat\bin\eStreamChat.Interfaces.pdb
+E:\chats estream\eStreamChat\bin\eStreamChat.SampleProviders.pdb
+E:\chats estream\eStreamChat\bin\Microsoft.Practices.Unity.xml
+E:\chats estream\eStreamChat\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\chats estream\eStreamChat\obj\Debug\eStreamChat.csprojResolveAssemblyReference.cache
+E:\chats estream\eStreamChat\obj\Debug\eStreamChat.dll
+E:\chats estream\eStreamChat\obj\Debug\eStreamChat.pdb

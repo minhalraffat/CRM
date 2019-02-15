@@ -1,0 +1,36 @@
+
+/* PIE CLASS */
+.pie 						{ behavior:url(assets/javascripts/PIE.php); behavior:url(assets/javascripts/PIE.htc); position:relative; }
+
+/* FLOAT RESET CLASSES */
+.floatLeft 		{ float:left!important; }
+.floatRight 	{ float:right!important; }
+.clearfix:after { content:""; display:block; clear:both; visibility:hidden; line-height:0px; height:0px; }
+.clear 			{ clear:both; width:0px; height:0px; }
+
+/* GENERAL STYLES */
+.wrapper 			{ margin:0px auto; padding:0px 10px; overflow:hidden; max-width:100%; position:relative; }
+
+/* GENERAL HEADING MARGIN CSS */
+h1, h2, h3, h4, h5, h6, p 	{ margin:0px 0px 15px 0px; }
+
+/* (GENERAL LINK CSS) */
+a, a:focus, img 			{ border:0px; outline:none; }
+
+a:hover 	{ text-decoration:none; }
+
+a 			{ text-decoration:none; 
+			  -webkit-transition:all 200ms linear; 
+			  -moz-transition:all 200ms linear; 
+			  -o-transition:all 200ms linear; 
+			  -ms-transition:all 200ms linear; 
+			  transition:all 200ms linear;
+			  color:#fff;
+			}
+
+/* INPUT BUTTON */
+input, select, textarea 	{ border:none; outline:none; }
+
+body{
+	font-family: 'Open Sans';
+}

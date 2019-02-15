@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CRMDB" Class="CRMDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="ConnectionString" ConnectionString="Data Source=.;Initial Catalog=CRMDB;Integrated Security=True" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Designation" Member="Designations">
+    <Type Name="Designation">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DesignationName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Designation_Employee" Member="Employees" ThisKey="Id" OtherKey="DesignationId" Type="Employee" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmployeeSalary" Member="EmployeeSalaries">
+    <Type Name="EmployeeSalary">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DesignationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Salary" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="EmployeeSalary_Employee" Member="Employees" ThisKey="Id" OtherKey="SalaryId" Type="Employee" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Products" Member="Products">
+    <Type Name="Product">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Product_Complaint" Member="Complaints" ThisKey="Id" OtherKey="ProductId" Type="Complaint" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Register" Member="Registers">
+    <Type Name="Register">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LoginId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TypeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="DOB" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ContactNo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDelete" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Register_Complaint" Member="Complaints" ThisKey="Id" OtherKey="ProductId" Type="Complaint" />
+      <Association Name="UserType_Register" Member="UserType" ThisKey="TypeId" OtherKey="Id" Type="UserType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserType" Member="UserTypes">
+    <Type Name="UserType">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserTypeName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="UserType_Register" Member="Registers" ThisKey="Id" OtherKey="TypeId" Type="Register" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Employee" Member="Employees">
+    <Type Name="Employee">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="DOB" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="CellNo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="JoiningDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DesignationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SalaryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmnetId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserTypeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LoginId" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Association Name="Employee_Complaint" Member="Complaints" ThisKey="Id" OtherKey="EmployeeId" Type="Complaint" />
+      <Association Name="Employee_Task" Member="Tasks" ThisKey="Id" OtherKey="EmployeeId" Type="Task" />
+      <Association Name="Employee_Event" Member="Events" ThisKey="Id" OtherKey="EmployeeId" Type="Event" />
+      <Association Name="Designation_Employee" Member="Designation" ThisKey="DesignationId" OtherKey="Id" Type="Designation" IsForeignKey="true" />
+      <Association Name="EmployeeSalary_Employee" Member="EmployeeSalary" ThisKey="SalaryId" OtherKey="Id" Type="EmployeeSalary" IsForeignKey="true" />
+      <Association Name="Department_Employee" Member="Department" ThisKey="DepartmnetId" OtherKey="Id" Type="Department" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ComplainType" Member="ComplainTypes">
+    <Type Name="ComplainType">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ComplainName" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="DeptId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ComplainType_Complaint" Member="Complaints" ThisKey="Id" OtherKey="ComplainTypeId" Type="Complaint" />
+      <Association Name="Department_ComplainType" Member="Department" ThisKey="DeptId" OtherKey="Id" Type="Department" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Complaints" Member="Complaints">
+    <Type Name="Complaint">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ComplainTypeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ComplainNumber" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ComplainType_Complaint" Member="ComplainType" ThisKey="ComplainTypeId" OtherKey="Id" Type="ComplainType" IsForeignKey="true" />
+      <Association Name="Employee_Complaint" Member="Employee" ThisKey="EmployeeId" OtherKey="Id" Type="Employee" IsForeignKey="true" />
+      <Association Name="Product_Complaint" Member="Product" ThisKey="ProductId" OtherKey="Id" Type="Product" IsForeignKey="true" />
+      <Association Name="Register_Complaint" Member="Register" ThisKey="ProductId" OtherKey="Id" Type="Register" IsForeignKey="true" />
+      <Association Name="Department_Complaint" Member="Department" ThisKey="DepartmentId" OtherKey="Id" Type="Department" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TaskPriority" Member="TaskPriorities">
+    <Type Name="TaskPriority">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="TaskPriority_Task" Member="Tasks" ThisKey="Id" OtherKey="PriorityId" Type="Task" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TaskStatus" Member="TaskStatus">
+    <Type Name="TaskStatus">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="TaskStatus_Task" Member="Tasks" ThisKey="Id" OtherKey="StatusId" Type="Task" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Task" Member="Tasks">
+    <Type Name="Task">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TaskName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Subject" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="DueDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="StatusId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PriorityId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Employee_Task" Member="Employee" ThisKey="EmployeeId" OtherKey="Id" Type="Employee" IsForeignKey="true" />
+      <Association Name="TaskPriority_Task" Member="TaskPriority" ThisKey="PriorityId" OtherKey="Id" Type="TaskPriority" IsForeignKey="true" />
+      <Association Name="TaskStatus_Task" Member="TaskStatus" ThisKey="StatusId" OtherKey="Id" Type="TaskStatus" IsForeignKey="true" />
+      <Association Name="Department_Task" Member="Department" ThisKey="DepartmentId" OtherKey="Id" Type="Department" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Department" Member="Departments">
+    <Type Name="Department">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DepartmentName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="Department_Employee" Member="Employees" ThisKey="Id" OtherKey="DepartmnetId" Type="Employee" />
+      <Association Name="Department_ComplainType" Member="ComplainTypes" ThisKey="Id" OtherKey="DeptId" Type="ComplainType" />
+      <Association Name="Department_Complaint" Member="Complaints" ThisKey="Id" OtherKey="DepartmentId" Type="Complaint" />
+      <Association Name="Department_Task" Member="Tasks" ThisKey="Id" OtherKey="DepartmentId" Type="Task" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Events" Member="Events">
+    <Type Name="Event">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="StartTime" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Column Name="EndTime" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="EventName" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Association Name="Employee_Event" Member="Employee" ThisKey="EmployeeId" OtherKey="Id" Type="Employee" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

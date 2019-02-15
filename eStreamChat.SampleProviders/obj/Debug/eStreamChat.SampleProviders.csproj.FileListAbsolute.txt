@@ -1,0 +1,5 @@
+E:\project 28-5-2010\CRM 28 May\eStreamChat\Providers\Default\eStreamChat.SampleProviders.dll
+E:\project 28-5-2010\CRM 28 May\eStreamChat\Providers\Default\eStreamChat.SampleProviders.pdb
+E:\project 28-5-2010\CRM 28 May\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.csprojResolveAssemblyReference.cache
+E:\project 28-5-2010\CRM 28 May\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.dll
+E:\project 28-5-2010\CRM 28 May\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.pdb

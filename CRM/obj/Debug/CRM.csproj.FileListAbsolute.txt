@@ -1,0 +1,290 @@
+D:\CRM\CRM\bin\CRM.dll.config
+D:\CRM\CRM\bin\CRM.dll
+D:\CRM\CRM\bin\CRM.pdb
+D:\CRM\CRM\obj\Debug\CRM.dll
+D:\CRM\CRM\obj\Debug\CRM.pdb
+D:\CRM\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+D:\CRM\CRM\bin\CRMDLL.dll
+D:\CRM\CRM\bin\CRMDLL.pdb
+D:\proj 4-1-2016\CRM\CRM\bin\CRM.dll.config
+D:\proj 4-1-2016\CRM\CRM\bin\CRM.dll
+D:\proj 4-1-2016\CRM\CRM\bin\CRM.pdb
+D:\proj 4-1-2016\CRM\CRM\bin\CRMDLL.dll
+D:\proj 4-1-2016\CRM\CRM\bin\CRMDLL.pdb
+D:\proj 4-1-2016\CRM\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+D:\proj 4-1-2016\CRM\CRM\obj\Debug\CRM.dll
+D:\proj 4-1-2016\CRM\CRM\obj\Debug\CRM.pdb
+C:\Users\Saad\Desktop\proj 4-1-2016\CRM\CRM\bin\CRM.dll.config
+C:\Users\Saad\Desktop\proj 4-1-2016\CRM\CRM\bin\CRM.dll
+C:\Users\Saad\Desktop\proj 4-1-2016\CRM\CRM\bin\CRM.pdb
+C:\Users\Saad\Desktop\proj 4-1-2016\CRM\CRM\bin\CRMDLL.dll
+C:\Users\Saad\Desktop\proj 4-1-2016\CRM\CRM\bin\CRMDLL.pdb
+C:\Users\Saad\Desktop\proj 4-1-2016\CRM\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\Saad\Desktop\proj 4-1-2016\CRM\CRM\obj\Debug\CRM.dll
+C:\Users\Saad\Desktop\proj 4-1-2016\CRM\CRM\obj\Debug\CRM.pdb
+C:\Users\Saad\Desktop\CRM 1 April\CRM\bin\CRM.dll.config
+C:\Users\Saad\Desktop\CRM 1 April\CRM\bin\CRM.dll
+C:\Users\Saad\Desktop\CRM 1 April\CRM\bin\CRM.pdb
+C:\Users\Saad\Desktop\CRM 1 April\CRM\bin\CRMDLL.dll
+C:\Users\Saad\Desktop\CRM 1 April\CRM\bin\CRMDLL.pdb
+C:\Users\Saad\Desktop\CRM 1 April\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\Saad\Desktop\CRM 1 April\CRM\obj\Debug\CRM.dll
+C:\Users\Saad\Desktop\CRM 1 April\CRM\obj\Debug\CRM.pdb
+C:\Users\HP 15 g\Desktop\CRM 05 April\CRM 1 April\CRM\bin\CRM.dll.config
+C:\Users\HP 15 g\Desktop\CRM 05 April\CRM 1 April\CRM\bin\CRM.dll
+C:\Users\HP 15 g\Desktop\CRM 05 April\CRM 1 April\CRM\bin\CRM.pdb
+C:\Users\HP 15 g\Desktop\CRM 05 April\CRM 1 April\CRM\bin\CRMDLL.dll
+C:\Users\HP 15 g\Desktop\CRM 05 April\CRM 1 April\CRM\bin\CRMDLL.pdb
+C:\Users\HP 15 g\Desktop\CRM 05 April\CRM 1 April\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\HP 15 g\Desktop\CRM 05 April\CRM 1 April\CRM\obj\Debug\CRM.dll
+C:\Users\HP 15 g\Desktop\CRM 05 April\CRM 1 April\CRM\obj\Debug\CRM.pdb
+C:\taha\CRM Perfect\CRM 05 April\CRM 1 April\CRM\bin\CRM.dll.config
+C:\taha\CRM Perfect\CRM 05 April\CRM 1 April\CRM\bin\CRM.dll
+C:\taha\CRM Perfect\CRM 05 April\CRM 1 April\CRM\bin\CRM.pdb
+C:\taha\CRM Perfect\CRM 05 April\CRM 1 April\CRM\bin\CRMDLL.dll
+C:\taha\CRM Perfect\CRM 05 April\CRM 1 April\CRM\bin\CRMDLL.pdb
+C:\taha\CRM Perfect\CRM 05 April\CRM 1 April\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\taha\CRM Perfect\CRM 05 April\CRM 1 April\CRM\obj\Debug\CRM.dll
+C:\taha\CRM Perfect\CRM 05 April\CRM 1 April\CRM\obj\Debug\CRM.pdb
+C:\taha FYP Perfect\CRM Perfect\CRM 05 April\CRM 1 April\CRM\bin\CRM.dll.config
+C:\taha FYP Perfect\CRM Perfect\CRM 05 April\CRM 1 April\CRM\bin\CRM.dll
+C:\taha FYP Perfect\CRM Perfect\CRM 05 April\CRM 1 April\CRM\bin\CRM.pdb
+C:\taha FYP Perfect\CRM Perfect\CRM 05 April\CRM 1 April\CRM\bin\CRMDLL.dll
+C:\taha FYP Perfect\CRM Perfect\CRM 05 April\CRM 1 April\CRM\bin\CRMDLL.pdb
+C:\taha FYP Perfect\CRM Perfect\CRM 05 April\CRM 1 April\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\taha FYP Perfect\CRM Perfect\CRM 05 April\CRM 1 April\CRM\obj\Debug\CRM.dll
+C:\taha FYP Perfect\CRM Perfect\CRM 05 April\CRM 1 April\CRM\obj\Debug\CRM.pdb
+C:\Users\Minhal PC\Desktop\CRM Perfect\CRM Perfect\CRM 05 April\CRM 1 April\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\Saad\Desktop\CRM 12 April Minhal\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\Saad\Desktop\CRM 12 April Minhal\CRM\bin\CRM.dll.config
+C:\Users\Saad\Desktop\CRM 12 April Minhal\CRM\bin\CRM.dll
+C:\Users\Saad\Desktop\CRM 12 April Minhal\CRM\bin\CRM.pdb
+C:\Users\Saad\Desktop\CRM 12 April Minhal\CRM\bin\CRMDLL.dll
+C:\Users\Saad\Desktop\CRM 12 April Minhal\CRM\bin\CRMDLL.pdb
+C:\Users\Saad\Desktop\CRM 12 April Minhal\CRM\obj\Debug\CRM.dll
+C:\Users\Saad\Desktop\CRM 12 April Minhal\CRM\obj\Debug\CRM.pdb
+C:\Users\HP 15 g\Desktop\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRM.dll.config
+C:\Users\HP 15 g\Desktop\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRM.dll
+C:\Users\HP 15 g\Desktop\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRM.pdb
+C:\Users\HP 15 g\Desktop\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRMDLL.dll
+C:\Users\HP 15 g\Desktop\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRMDLL.pdb
+C:\Users\HP 15 g\Desktop\CRM 12 April Minhal\CRM 12 April Minhal\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\HP 15 g\Desktop\CRM 12 April Minhal\CRM 12 April Minhal\CRM\obj\Debug\CRM.dll
+C:\Users\HP 15 g\Desktop\CRM 12 April Minhal\CRM 12 April Minhal\CRM\obj\Debug\CRM.pdb
+E:\backup project fyp\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRM.dll.config
+E:\backup project fyp\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRM.dll
+E:\backup project fyp\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRM.pdb
+E:\backup project fyp\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRMDLL.dll
+E:\backup project fyp\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRMDLL.pdb
+E:\backup project fyp\CRM 12 April Minhal\CRM 12 April Minhal\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\backup project fyp\CRM 12 April Minhal\CRM 12 April Minhal\CRM\obj\Debug\CRM.dll
+E:\backup project fyp\CRM 12 April Minhal\CRM 12 April Minhal\CRM\obj\Debug\CRM.pdb
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRM.dll.config
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRM.dll
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRM.pdb
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRMDLL.dll
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM 12 April Minhal\CRM\bin\CRMDLL.pdb
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM 12 April Minhal\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM 12 April Minhal\CRM\obj\Debug\CRM.dll
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM 12 April Minhal\CRM\obj\Debug\CRM.pdb
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM\bin\CRM.dll.config
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM\bin\CRM.dll
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM\bin\CRM.pdb
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM\bin\CRMDLL.dll
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM\bin\CRMDLL.pdb
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM\obj\Debug\CRM.dll
+E:\backup project fyp 20-4-2016\CRM 12 April Minhal\CRM\obj\Debug\CRM.pdb
+E:\backup project fyp 26-4-2016\CRM 12 April Minhal\CRM\bin\CRM.dll.config
+E:\backup project fyp 26-4-2016\CRM 12 April Minhal\CRM\bin\CRM.dll
+E:\backup project fyp 26-4-2016\CRM 12 April Minhal\CRM\bin\CRM.pdb
+E:\backup project fyp 26-4-2016\CRM 12 April Minhal\CRM\bin\CRMDLL.dll
+E:\backup project fyp 26-4-2016\CRM 12 April Minhal\CRM\bin\CRMDLL.pdb
+E:\backup project fyp 26-4-2016\CRM 12 April Minhal\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\backup project fyp 26-4-2016\CRM 12 April Minhal\CRM\obj\Debug\CRM.dll
+E:\backup project fyp 26-4-2016\CRM 12 April Minhal\CRM\obj\Debug\CRM.pdb
+C:\Users\Saad\Desktop\CRM 26 April\CRM 26 April\CRM\bin\CRM.dll.config
+C:\Users\Saad\Desktop\CRM 26 April\CRM 26 April\CRM\bin\CRM.dll
+C:\Users\Saad\Desktop\CRM 26 April\CRM 26 April\CRM\bin\CRM.pdb
+C:\Users\Saad\Desktop\CRM 26 April\CRM 26 April\CRM\bin\CRMDLL.dll
+C:\Users\Saad\Desktop\CRM 26 April\CRM 26 April\CRM\bin\CRMDLL.pdb
+C:\Users\Saad\Desktop\CRM 26 April\CRM 26 April\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\Saad\Desktop\CRM 26 April\CRM 26 April\CRM\obj\Debug\CRM.dll
+C:\Users\Saad\Desktop\CRM 26 April\CRM 26 April\CRM\obj\Debug\CRM.pdb
+E:\backup project fyp 26-4-2016\CRM 28 April\CRM\bin\CRM.dll.config
+E:\backup project fyp 26-4-2016\CRM 28 April\CRM\bin\CRM.dll
+E:\backup project fyp 26-4-2016\CRM 28 April\CRM\bin\CRM.pdb
+E:\backup project fyp 26-4-2016\CRM 28 April\CRM\bin\CRMDLL.dll
+E:\backup project fyp 26-4-2016\CRM 28 April\CRM\bin\CRMDLL.pdb
+E:\backup project fyp 26-4-2016\CRM 28 April\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\backup project fyp 26-4-2016\CRM 28 April\CRM\obj\Debug\CRM.dll
+E:\backup project fyp 26-4-2016\CRM 28 April\CRM\obj\Debug\CRM.pdb
+E:\New folder (2)\CRM 28 April\CRM\bin\CRM.dll.config
+E:\New folder (2)\CRM 28 April\CRM\bin\CRM.dll
+E:\New folder (2)\CRM 28 April\CRM\bin\CRM.pdb
+E:\New folder (2)\CRM 28 April\CRM\bin\CRMDLL.dll
+E:\New folder (2)\CRM 28 April\CRM\bin\CRMDLL.pdb
+E:\New folder (2)\CRM 28 April\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\New folder (2)\CRM 28 April\CRM\obj\Debug\CRM.dll
+E:\New folder (2)\CRM 28 April\CRM\obj\Debug\CRM.pdb
+E:\Fyp 5-3-2016\CRM 28 April\CRM\bin\CRM.dll.config
+E:\Fyp 5-3-2016\CRM 28 April\CRM\bin\CRM.dll
+E:\Fyp 5-3-2016\CRM 28 April\CRM\bin\CRM.pdb
+E:\Fyp 5-3-2016\CRM 28 April\CRM\bin\CRMDLL.dll
+E:\Fyp 5-3-2016\CRM 28 April\CRM\bin\CRMDLL.pdb
+E:\Fyp 5-3-2016\CRM 28 April\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\Fyp 5-3-2016\CRM 28 April\CRM\obj\Debug\CRM.dll
+E:\Fyp 5-3-2016\CRM 28 April\CRM\obj\Debug\CRM.pdb
+C:\Users\Saad\Desktop\CRM 26 May\CRM\bin\CRM.dll.config
+C:\Users\Saad\Desktop\CRM 26 May\CRM\bin\CRM.dll
+C:\Users\Saad\Desktop\CRM 26 May\CRM\bin\CRM.pdb
+C:\Users\Saad\Desktop\CRM 26 May\CRM\bin\CRMDLL.dll
+C:\Users\Saad\Desktop\CRM 26 May\CRM\bin\CRMDLL.pdb
+C:\Users\Saad\Desktop\CRM 26 May\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\Saad\Desktop\CRM 26 May\CRM\obj\Debug\CRM.dll
+C:\Users\Saad\Desktop\CRM 26 May\CRM\obj\Debug\CRM.pdb
+E:\project 28-5-2010\CRM 28 May\CRM\bin\CRM.dll.config
+E:\project 28-5-2010\CRM 28 May\CRM\bin\CRM.dll
+E:\project 28-5-2010\CRM 28 May\CRM\bin\CRM.pdb
+E:\project 28-5-2010\CRM 28 May\CRM\bin\CRMDLL.dll
+E:\project 28-5-2010\CRM 28 May\CRM\bin\eStreamChat.Interfaces.dll
+E:\project 28-5-2010\CRM 28 May\CRM\bin\eStreamChat.SampleProviders.dll
+E:\project 28-5-2010\CRM 28 May\CRM\bin\eStreamChat.Interfaces.pdb
+E:\project 28-5-2010\CRM 28 May\CRM\bin\eStreamChat.SampleProviders.pdb
+E:\project 28-5-2010\CRM 28 May\CRM\bin\CRMDLL.pdb
+E:\project 28-5-2010\CRM 28 May\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\project 28-5-2010\CRM 28 May\CRM\obj\Debug\CRM.dll
+E:\project 28-5-2010\CRM 28 May\CRM\obj\Debug\CRM.pdb
+E:\abd\CRM 28 May\CRM\bin\CRM.dll.config
+E:\abd\CRM 28 May\CRM\bin\CRM.dll
+E:\abd\CRM 28 May\CRM\bin\CRM.pdb
+E:\abd\CRM 28 May\CRM\bin\CRMDLL.dll
+E:\abd\CRM 28 May\CRM\bin\eStreamChat.Interfaces.dll
+E:\abd\CRM 28 May\CRM\bin\eStreamChat.SampleProviders.dll
+E:\abd\CRM 28 May\CRM\bin\CRMDLL.pdb
+E:\abd\CRM 28 May\CRM\bin\eStreamChat.Interfaces.pdb
+E:\abd\CRM 28 May\CRM\bin\eStreamChat.SampleProviders.pdb
+E:\abd\CRM 28 May\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\abd\CRM 28 May\CRM\obj\Debug\CRM.dll
+E:\abd\CRM 28 May\CRM\obj\Debug\CRM.pdb
+D:\project 23 june backup\abd\CRM 28 May\CRM\bin\CRM.dll.config
+D:\project 23 june backup\abd\CRM 28 May\CRM\bin\CRM.dll
+D:\project 23 june backup\abd\CRM 28 May\CRM\bin\CRM.pdb
+D:\project 23 june backup\abd\CRM 28 May\CRM\bin\CRMDLL.dll
+D:\project 23 june backup\abd\CRM 28 May\CRM\bin\eStreamChat.Interfaces.dll
+D:\project 23 june backup\abd\CRM 28 May\CRM\bin\eStreamChat.SampleProviders.dll
+D:\project 23 june backup\abd\CRM 28 May\CRM\bin\CRMDLL.pdb
+D:\project 23 june backup\abd\CRM 28 May\CRM\bin\eStreamChat.Interfaces.pdb
+D:\project 23 june backup\abd\CRM 28 May\CRM\bin\eStreamChat.SampleProviders.pdb
+D:\project 23 june backup\abd\CRM 28 May\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+D:\project 23 june backup\abd\CRM 28 May\CRM\obj\Debug\CRM.dll
+D:\project 23 june backup\abd\CRM 28 May\CRM\obj\Debug\CRM.pdb
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\bin\CRM.dll.config
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\bin\CRM.dll
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\bin\CRM.pdb
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\bin\CRMDLL.dll
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\bin\eStreamChat.Interfaces.dll
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\bin\eStreamChat.SampleProviders.dll
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\bin\CRMDLL.pdb
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\bin\eStreamChat.Interfaces.pdb
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\bin\eStreamChat.SampleProviders.pdb
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\obj\Debug\CRM.dll
+D:\Fyp CRM Latest\abd\CRM 28 May\CRM\obj\Debug\CRM.pdb
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\bin\CRM.dll.config
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\bin\CRM.dll
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\bin\CRM.pdb
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\bin\CRMDLL.dll
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\bin\eStreamChat.Interfaces.dll
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\bin\eStreamChat.SampleProviders.dll
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\bin\CRMDLL.pdb
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\bin\eStreamChat.Interfaces.pdb
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\bin\eStreamChat.SampleProviders.pdb
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\obj\Debug\CRM.dll
+C:\Users\Saad\Desktop\FYP Final Taha\CRM\obj\Debug\CRM.pdb
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll.config
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\bin\CRM.pdb
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.dll
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.dll
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.dll
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.pdb
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.pdb
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.pdb
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.dll
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.pdb
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll.config
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.pdb
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.dll
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.dll
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.dll
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.pdb
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.pdb
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.pdb
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.dll
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.pdb
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\RdlCompile.cache
+D:\project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\RdlCompile.compiled
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll.config
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\RdlCompile.cache
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\RdlCompile.compiled
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.pdb
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll.config
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.pdb
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.dll
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.dll
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.dll
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.pdb
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.pdb
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.pdb
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\RdlCompile.cache
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\RdlCompile.compiled
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.dll
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll.config
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\RdlCompile.cache
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\RdlCompile.compiled
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.pdb
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll.config
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.dll
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRM.pdb
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.dll
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.dll
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.dll
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\Microsoft.SqlServer.Types.dll
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.pdb
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\CRMDLL.dll.config
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.Interfaces.pdb
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\bin\eStreamChat.SampleProviders.pdb
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.csprojAssemblyReference.cache
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.csproj.CoreCompileInputs.cache
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.csproj.CopyComplete
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.dll
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\CRM\obj\Debug\CRM.pdb

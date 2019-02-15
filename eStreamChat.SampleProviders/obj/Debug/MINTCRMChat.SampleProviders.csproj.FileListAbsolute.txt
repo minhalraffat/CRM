@@ -1,0 +1,36 @@
+E:\project 28-5-2010\CRM 28 May\eStreamChat\Providers\Default\eStreamChat.SampleProviders.dll
+E:\project 28-5-2010\CRM 28 May\eStreamChat\Providers\Default\eStreamChat.SampleProviders.pdb
+E:\project 28-5-2010\CRM 28 May\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.dll
+E:\project 28-5-2010\CRM 28 May\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.pdb
+D:\Fyp CRM Latest\abd\CRM 28 May\eStreamChat\Providers\Default\eStreamChat.SampleProviders.dll
+D:\Fyp CRM Latest\abd\CRM 28 May\eStreamChat\Providers\Default\eStreamChat.SampleProviders.pdb
+D:\Fyp CRM Latest\abd\CRM 28 May\eStreamChat.SampleProviders\obj\Debug\MINTCRMChat.SampleProviders.csprojResolveAssemblyReference.cache
+D:\Fyp CRM Latest\abd\CRM 28 May\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.dll
+D:\Fyp CRM Latest\abd\CRM 28 May\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.pdb
+C:\Users\Saad\Desktop\FYP Final Taha\eStreamChat\Providers\Default\eStreamChat.SampleProviders.dll
+C:\Users\Saad\Desktop\FYP Final Taha\eStreamChat\Providers\Default\eStreamChat.SampleProviders.pdb
+C:\Users\Saad\Desktop\FYP Final Taha\eStreamChat.SampleProviders\obj\Debug\MINTCRMChat.SampleProviders.csprojResolveAssemblyReference.cache
+C:\Users\Saad\Desktop\FYP Final Taha\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.dll
+C:\Users\Saad\Desktop\FYP Final Taha\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.pdb
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\eStreamChat\Providers\Default\eStreamChat.SampleProviders.dll
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\eStreamChat\Providers\Default\eStreamChat.SampleProviders.pdb
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\MINTCRMChat.SampleProviders.csprojResolveAssemblyReference.cache
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.dll
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.pdb
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat\Providers\Default\eStreamChat.SampleProviders.dll
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat\Providers\Default\eStreamChat.SampleProviders.pdb
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\MINTCRMChat.SampleProviders.csprojResolveAssemblyReference.cache
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.dll
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat\Providers\Default\eStreamChat.SampleProviders.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat\Providers\Default\eStreamChat.SampleProviders.pdb
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\MINTCRMChat.SampleProviders.csprojResolveAssemblyReference.cache
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.dll
+C:\Users\Minhal PC\Desktop\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.pdb
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat\Providers\Default\eStreamChat.SampleProviders.dll
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat\Providers\Default\eStreamChat.SampleProviders.pdb
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\MINTCRMChat.SampleProviders.csprojAssemblyReference.cache
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\MINTCRMChat.SampleProviders.csproj.CoreCompileInputs.cache
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\MINTCRMChat.SampleProviders.csproj.CopyComplete
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.dll
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.SampleProviders\obj\Debug\eStreamChat.SampleProviders.pdb

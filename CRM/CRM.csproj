@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{880489DD-F98B-4910-A6C6-25EE905D23EC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRM</RootNamespace>
+    <AssemblyName>CRM</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>1643</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="eStreamChat">
+      <HintPath>..\..\..\chats estream\eStreamChat\bin\eStreamChat.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\chats estream\eStreamChat\bin\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\..\..\chats estream\eStreamChat\bin\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WebForms\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Aboutus.aspx" />
+    <Content Include="AddEmployee.aspx" />
+    <Content Include="App_Themes\Blue\alert.png" />
+    <Content Include="App_Themes\Blue\aside-btm-bgr.png" />
+    <Content Include="App_Themes\Blue\aside-top-bgr.png" />
+    <Content Include="App_Themes\Blue\body_bgr.png" />
+    <Content Include="App_Themes\Blue\btn_bgr.png" />
+    <Content Include="App_Themes\Blue\btn_bgr_hover.png" />
+    <Content Include="App_Themes\Blue\half-bgr.png" />
+    <Content Include="App_Themes\Blue\jquery-ui.css" />
+    <Content Include="App_Themes\Blue\layout.js" />
+    <Content Include="App_Themes\Blue\poweredby.png" />
+    <Content Include="App_Themes\Blue\sendfile.png" />
+    <Content Include="App_Themes\Blue\shadow.png" />
+    <Content Include="App_Themes\Blue\templates.html" />
+    <Content Include="App_Themes\Blue\text_bold.png" />
+    <Content Include="App_Themes\Blue\text_italic.png" />
+    <Content Include="App_Themes\Blue\text_underline.png" />
+    <Content Include="App_Themes\Blue\ui-anim_basic_16x16.gif" />
+    <Content Include="App_Themes\Blue\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="App_Themes\Blue\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="App_Themes\Blue\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="App_Themes\Blue\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="App_Themes\Blue\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="App_Themes\Blue\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="App_Themes\Blue\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="App_Themes\Blue\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="App_Themes\Blue\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="App_Themes\Blue\ui-icons_222222_256x240.png" />
+    <Content Include="App_Themes\Blue\ui-icons_228ef1_256x240.png" />
+    <Content Include="App_Themes\Blue\ui-icons_ef8c08_256x240.png" />
+    <Content Include="App_Themes\Blue\ui-icons_ffd27a_256x240.png" />
+    <Content Include="App_Themes\Blue\ui-icons_ffffff_256x240.png" />
+    <Content Include="App_Themes\Grey\alert.png" />
+    <Content Include="App_Themes\Grey\aside-btm-bgr.png" />
+    <Content Include="App_Themes\Grey\aside-top-bgr.png" />
+    <Content Include="App_Themes\Grey\body_bgr.png" />
+    <Content Include="App_Themes\Grey\btn_bgr.png" />
+    <Content Include="App_Themes\Grey\btn_bgr_hover.png" />
+    <Content Include="App_Themes\Grey\footer_bgr.png" />
+    <Content Include="App_Themes\Grey\half-bgr.png" />
+    <Content Include="App_Themes\Grey\jquery-ui.css" />
+    <Content Include="App_Themes\Grey\layout.js" />
+    <Content Include="App_Themes\Grey\poweredby.png" />
+    <Content Include="App_Themes\Grey\sendfile.png" />
+    <Content Include="App_Themes\Grey\shadow.png" />
+    <Content Include="App_Themes\Grey\templates.html" />
+    <Content Include="App_Themes\Grey\text_bold.png" />
+    <Content Include="App_Themes\Grey\text_italic.png" />
+    <Content Include="App_Themes\Grey\text_underline.png" />
+    <Content Include="App_Themes\Grey\ui-anim_basic_16x16.gif" />
+    <Content Include="App_Themes\Grey\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="App_Themes\Grey\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="App_Themes\Grey\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="App_Themes\Grey\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="App_Themes\Grey\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="App_Themes\Grey\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="App_Themes\Grey\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="App_Themes\Grey\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="App_Themes\Grey\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="App_Themes\Grey\ui-icons_222222_256x240.png" />
+    <Content Include="App_Themes\Grey\ui-icons_228ef1_256x240.png" />
+    <Content Include="App_Themes\Grey\ui-icons_ef8c08_256x240.png" />
+    <Content Include="App_Themes\Grey\ui-icons_ffd27a_256x240.png" />
+    <Content Include="App_Themes\Grey\ui-icons_ffffff_256x240.png" />
+    <Content Include="App_Themes\Paper\alert.png" />
+    <Content Include="App_Themes\Paper\aside-btm-bgr.png" />
+    <Content Include="App_Themes\Paper\aside-top-bgr.png" />
+    <Content Include="App_Themes\Paper\body_bgr.png" />
+    <Content Include="App_Themes\Paper\btn_bgr.png" />
+    <Content Include="App_Themes\Paper\btn_bgr_hover.png" />
+    <Content Include="App_Themes\Paper\footer_bgr.png" />
+    <Content Include="App_Themes\Paper\half-bgr.png" />
+    <Content Include="App_Themes\Paper\jquery-ui.css" />
+    <Content Include="App_Themes\Paper\layout.js" />
+    <Content Include="App_Themes\Paper\poweredby.png" />
+    <Content Include="App_Themes\Paper\sendfile.png" />
+    <Content Include="App_Themes\Paper\shadow.png" />
+    <Content Include="App_Themes\Paper\templates.html" />
+    <Content Include="App_Themes\Paper\text_bold.png" />
+    <Content Include="App_Themes\Paper\text_italic.png" />
+    <Content Include="App_Themes\Paper\text_underline.png" />
+    <Content Include="App_Themes\Paper\ui-anim_basic_16x16.gif" />
+    <Content Include="App_Themes\Paper\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="App_Themes\Paper\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="App_Themes\Paper\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="App_Themes\Paper\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="App_Themes\Paper\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="App_Themes\Paper\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="App_Themes\Paper\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="App_Themes\Paper\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="App_Themes\Paper\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="App_Themes\Paper\ui-icons_222222_256x240.png" />
+    <Content Include="App_Themes\Paper\ui-icons_228ef1_256x240.png" />
+    <Content Include="App_Themes\Paper\ui-icons_cccccc_256x240.png" />
+    <Content Include="App_Themes\Paper\ui-icons_ef8c08_256x240.png" />
+    <Content Include="App_Themes\Paper\ui-icons_ffd27a_256x240.png" />
+    <Content Include="App_Themes\Paper\ui-icons_ffffff_256x240.png" />
+    <Content Include="App_Themes\Paper\white30.png" />
+    <Content Include="assets\bootstrap-3.3.6-dist.zip" />
+    <Content Include="assets\bootstrap-3.3.6.zip" />
+    <Content Include="assets\bootstrap-sass-3.3.6.tar.gz" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\custom.css" />
+    <Content Include="assets\css\default.css" />
+    <Content Include="assets\css\default1.css" />
+    <Content Include="assets\css\default2.css" />
+    <Content Include="assets\css\font-awesome.css" />
+    <Content Include="assets\css\fonts.css" />
+    <Content Include="assets\css\fonts1.css" />
+    <Content Include="assets\css\fonts2.css" />
+    <Content Include="assets\css\general.css" />
+    <Content Include="assets\css\general1.css" />
+    <Content Include="assets\css\general2.css" />
+    <Content Include="assets\css\HTML5-reset.css" />
+    <Content Include="assets\css\HTML5-reset1.css" />
+    <Content Include="assets\css\HTML5-reset2.css" />
+    <Content Include="assets\css\login.css" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\generator_config.txt" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bold-demo.html" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bold-webfont.eot" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bold-webfont.svg" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bold-webfont.ttf" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bold-webfont.woff" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bold-webfont.woff2" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bolditalic-demo.html" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bolditalic-webfont.eot" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bolditalic-webfont.svg" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bolditalic-webfont.ttf" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bolditalic-webfont.woff" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-bolditalic-webfont.woff2" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabold-demo.html" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabold-webfont.eot" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabold-webfont.svg" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabold-webfont.ttf" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabold-webfont.woff" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabold-webfont.woff2" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabolditalic-demo.html" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabolditalic-webfont.eot" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabolditalic-webfont.svg" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabolditalic-webfont.ttf" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabolditalic-webfont.woff" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\opensans-extrabolditalic-webfont.woff2" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\specimen_files\grid_12-825-55-15.css" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\specimen_files\specimen_stylesheet.css" />
+    <Content Include="assets\fonts\webfontkit-20151005-060156\stylesheet.css" />
+    <Content Include="assets\home-js\bootstrap.min.css" />
+    <Content Include="assets\home-js\bootstrap.min.js" />
+    <Content Include="assets\home-js\css.css" />
+    <Content Include="assets\home-js\jquery.min.js" />
+    <Content Include="assets\images\3.png" />
+    <Content Include="assets\images\4.png" />
+    <Content Include="assets\images\5.png" />
+    <Content Include="assets\images\6.png" />
+    <Content Include="assets\images\8.png" />
+    <Content Include="assets\images\assign_btn.png" />
+    <Content Include="assets\images\b.png" />
+    <Content Include="assets\images\banner - Copy.jpg" />
+    <Content Include="assets\images\banner 1- Copy.jpg" />
+    <Content Include="assets\images\banner.jpg" />
+    <Content Include="assets\images\bg.png" />
+    <Content Include="assets\images\c.jpg" />
+    <Content Include="assets\images\chat.jpg" />
+    <Content Include="assets\images\clock.png" />
+    <Content Include="assets\images\crm1.jpg" />
+    <Content Include="assets\images\crmbanner.jpg" />
+    <Content Include="assets\images\crm_banner.jpg" />
+    <Content Include="assets\images\done.png" />
+    <Content Include="assets\images\fb.png" />
+    <Content Include="assets\images\images.jpg" />
+    <Content Include="assets\images\in.png" />
+    <Content Include="assets\images\k.png" />
+    <Content Include="assets\images\l.png" />
+    <Content Include="assets\images\l1.png" />
+    <Content Include="assets\images\l2.png" />
+    <Content Include="assets\images\l3.png" />
+    <Content Include="assets\images\l4.png" />
+    <Content Include="assets\images\l5.png" />
+    <Content Include="assets\images\l6.png" />
+    <Content Include="assets\images\like.png" />
+    <Content Include="assets\images\m.png" />
+    <Content Include="assets\images\mail.png" />
+    <Content Include="assets\images\mint copy.jpg" />
+    <Content Include="assets\images\msg.png" />
+    <Content Include="assets\images\pass.png" />
+    <Content Include="assets\images\sales.jpg" />
+    <Content Include="assets\images\sign_btn.png" />
+    <Content Include="assets\images\support.gif" />
+    <Content Include="assets\images\textbox.jpg" />
+    <Content Include="assets\images\Thumbs.db" />
+    <Content Include="assets\images\twi.png" />
+    <Content Include="assets\images\user.png" />
+    <Content Include="assets\img\1.png" />
+    <Content Include="assets\img\2.png" />
+    <Content Include="assets\img\3.png" />
+    <Content Include="assets\img\4.png" />
+    <Content Include="assets\img\find_user.png" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\configuration.js" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\dataTables\dataTables.bootstrap.css" />
+    <Content Include="assets\js\dataTables\dataTables.bootstrap.js" />
+    <Content Include="assets\js\dataTables\jquery.dataTables.js" />
+    <Content Include="assets\js\jquery-1.10.2.js" />
+    <Content Include="assets\js\jquery-1.6.min.js" />
+    <Content Include="assets\js\jquery-ui.min.js" />
+    <Content Include="assets\js\jquery.metisMenu.js" />
+    <Content Include="assets\js\morris\morris-0.4.3.min.css" />
+    <Content Include="assets\js\morris\morris.js" />
+    <Content Include="assets\js\morris\raphael-2.1.0.min.js" />
+    <Content Include="bin\CRM.dll" />
+    <Content Include="bin\CRM.pdb" />
+    <Content Include="bin\CRMDLL.dll" />
+    <Content Include="bin\CRMDLL.pdb" />
+    <Content Include="bin\eStreamChat.dll" />
+    <Content Include="bin\eStreamChat.Interfaces.dll" />
+    <Content Include="bin\eStreamChat.Interfaces.pdb" />
+    <Content Include="bin\eStreamChat.pdb" />
+    <Content Include="bin\eStreamChat.SampleProviders.dll" />
+    <Content Include="bin\eStreamChat.SampleProviders.pdb" />
+    <Content Include="bin\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="bin\Microsoft.Practices.Unity.Configuration.dll" />
+    <Content Include="bin\Microsoft.Practices.Unity.Configuration.xml" />
+    <Content Include="bin\Microsoft.Practices.Unity.dll" />
+    <Content Include="bin\Microsoft.Practices.Unity.xml" />
+    <Content Include="broadcast_fms.swf" />
+    <Content Include="broadcast_red5.swf" />
+    <Content Include="ChatEngine.svc" />
+    <Content Include="ChatRoom.aspx" />
+    <Content Include="Chats.aspx" />
+    <Content Include="Complaints.aspx" />
+    <Content Include="connectwithus.aspx" />
+    <Content Include="Dashboard.aspx" />
+    <Content Include="DetectWebcam.swf" />
+    <Content Include="EmailUser.aspx" />
+    <Content Include="Emoticons\angel.gif" />
+    <Content Include="Emoticons\arrow.gif" />
+    <Content Include="Emoticons\badgrin.gif" />
+    <Content Include="Emoticons\biggrin.gif" />
+    <Content Include="Emoticons\boohoo.gif" />
+    <Content Include="Emoticons\clap.gif" />
+    <Content Include="Emoticons\confused.gif" />
+    <Content Include="Emoticons\cool.gif" />
+    <Content Include="Emoticons\cry.gif" />
+    <Content Include="Emoticons\dance.gif" />
+    <Content Include="Emoticons\doh.gif" />
+    <Content Include="Emoticons\doubt.gif" />
+    <Content Include="Emoticons\drool.gif" />
+    <Content Include="Emoticons\eh.gif" />
+    <Content Include="Emoticons\evil.gif" />
+    <Content Include="Emoticons\exclaim.gif" />
+    <Content Include="Emoticons\hand.gif" />
+    <Content Include="Emoticons\idea.gif" />
+    <Content Include="Emoticons\liar.gif" />
+    <Content Include="Emoticons\lol.gif" />
+    <Content Include="Emoticons\mad.gif" />
+    <Content Include="Emoticons\naughty.gif" />
+    <Content Include="Emoticons\neutral.gif" />
+    <Content Include="Emoticons\pray.gif" />
+    <Content Include="Emoticons\question.gif" />
+    <Content Include="Emoticons\razz.gif" />
+    <Content Include="Emoticons\redface.gif" />
+    <Content Include="Emoticons\rolleyes.gif" />
+    <Content Include="Emoticons\sad.gif" />
+    <Content Include="Emoticons\shhh.gif" />
+    <Content Include="Emoticons\shifty.gif" />
+    <Content Include="Emoticons\shock.gif" />
+    <Content Include="Emoticons\sick.gif" />
+    <Content Include="Emoticons\silenced.gif" />
+    <Content Include="Emoticons\smile.gif" />
+    <Content Include="Emoticons\snooty.gif" />
+    <Content Include="Emoticons\surprised.gif" />
+    <Content Include="Emoticons\think.gif" />
+    <Content Include="Emoticons\wall.gif" />
+    <Content Include="Emoticons\whistle.gif" />
+    <Content Include="Emoticons\wink.gif" />
+    <Content Include="EmployeeComplainDept.aspx" />
+    <Content Include="eStreamChat.csproj" />
+    <Content Include="eStreamChat.csproj.user" />
+    <Content Include="AddEvents.aspx" />
+    <Content Include="faqs.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="howitworks.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Master\CRMMaster.Master" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="DepartmentComplains.aspx" />
+    <Content Include="MessengerWindow.aspx" />
+    <Content Include="myaccount.aspx" />
+    <Content Include="obj\Debug\CRM.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\CRM.dll" />
+    <Content Include="obj\Debug\CRM.pdb" />
+    <Content Include="obj\Debug\eStreamChat.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\eStreamChat.dll" />
+    <Content Include="obj\Debug\eStreamChat.pdb" />
+    <Content Include="portfolio.aspx" />
+    <Content Include="pricing.aspx" />
+    <Content Include="privacypolicy.aspx" />
+    <Content Include="PrivateMessage.wav" />
+    <Content Include="PublicMessage.wav" />
+    <Content Include="receive_fms.swf" />
+    <Content Include="receive_red5.swf" />
+    <Content Include="AddComplains.aspx" />
+    <Content Include="Reports.aspx" />
+    <Content Include="ReportsEmployees.aspx" />
+    <Content Include="Scripts\eStreamChat.js" />
+    <Content Include="Scripts\jquery.ajaxfileupload.js" />
+    <Content Include="Scripts\jquery.blink.js" />
+    <Content Include="Scripts\jquery.colorPicker.js" />
+    <Content Include="Scripts\jquery.contextMenu.mod.js" />
+    <Content Include="Scripts\jquery.emoticon.js" />
+    <Content Include="Scripts\jquery.jqote2.js" />
+    <Content Include="Styles\arrow.gif" />
+    <Content Include="Styles\ContextMenuImages\ban.png" />
+    <Content Include="Styles\ContextMenuImages\chat.png" />
+    <Content Include="Styles\ContextMenuImages\door.png" />
+    <Content Include="Styles\ContextMenuImages\fish.png" />
+    <Content Include="Styles\ContextMenuImages\ignore.png" />
+    <Content Include="Styles\ContextMenuImages\kick.png" />
+    <Content Include="Styles\ContextMenuImages\profile.png" />
+    <Content Include="Styles\jquery.contextMenu.css" />
+    <Content Include="Styles\logo.png" />
+    <Content Include="Styles\Style.css" />
+    <Content Include="Styles\videobroadcast.png" />
+    <Content Include="Styles\webcam.png" />
+    <Content Include="UserTasks.aspx" />
+    <Content Include="termsandconditions.aspx" />
+    <Content Include="testimonials.aspx" />
+    <Content Include="UserComplains.aspx" />
+    <Content Include="UserProfileEdit.aspx" />
+    <Content Include="FlashResource.ashx" />
+    <Content Include="MessengerCommand.ashx" />
+    <Content Include="SendFile.ashx" />
+    <Content Include="Thumbnail.ashx" />
+    <Content Include="bin\CRM.dll.config" />
+    <Content Include="obj\Debug\CRM.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\eStreamChat.csprojResolveAssemblyReference.cache" />
+    <Content Include="Complains.xsc">
+      <DependentUpon>Complains.xsd</DependentUpon>
+    </Content>
+    <None Include="Complains.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Complains.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Complains.xss">
+      <DependentUpon>Complains.xsd</DependentUpon>
+    </Content>
+    <Content Include="Employees.xsc">
+      <DependentUpon>Employees.xsd</DependentUpon>
+    </Content>
+    <None Include="Employees.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Employees.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Employees.xss">
+      <DependentUpon>Employees.xsd</DependentUpon>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Email.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="UserProfile.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aboutus.aspx.cs">
+      <DependentUpon>Aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aboutus.aspx.designer.cs">
+      <DependentUpon>Aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployee.aspx.cs">
+      <DependentUpon>AddEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.aspx.designer.cs">
+      <DependentUpon>AddEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChatEngine.svc.cs">
+      <DependentUpon>ChatEngine.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ChatRoom.aspx.cs">
+      <DependentUpon>ChatRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChatRoom.aspx.designer.cs">
+      <DependentUpon>ChatRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Chats.aspx.cs">
+      <DependentUpon>Chats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chats.aspx.designer.cs">
+      <DependentUpon>Chats.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ChatSettings.cs" />
+    <Compile Include="Classes\Logger.cs" />
+    <Compile Include="Classes\MemoryCacheProvider.cs" />
+    <Compile Include="Classes\MemoryChatRoomStorage.cs" />
+    <Compile Include="Classes\MemoryMessengerPresenceProvider.cs" />
+    <Compile Include="Classes\Miscellaneous.cs" />
+    <Compile Include="Classes\RemoteAuthUserProvider.cs" />
+    <Compile Include="Classes\Timers.cs" />
+    <Compile Include="Complains.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Complains.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Complaints.aspx.cs">
+      <DependentUpon>Complaints.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Complaints.aspx.designer.cs">
+      <DependentUpon>Complaints.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="connectwithus.aspx.cs">
+      <DependentUpon>connectwithus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="connectwithus.aspx.designer.cs">
+      <DependentUpon>connectwithus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmailUser.aspx.cs">
+      <DependentUpon>EmailUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmailUser.aspx.designer.cs">
+      <DependentUpon>EmailUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Email.aspx.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Email.aspx.designer.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeComplainDept.aspx.cs">
+      <DependentUpon>EmployeeComplainDept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeComplainDept.aspx.designer.cs">
+      <DependentUpon>EmployeeComplainDept.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employees.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Employees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AddEvents.aspx.cs">
+      <DependentUpon>AddEvents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddEvents.aspx.designer.cs">
+      <DependentUpon>AddEvents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="faqs.aspx.cs">
+      <DependentUpon>faqs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="faqs.aspx.designer.cs">
+      <DependentUpon>faqs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FlashResource.ashx.cs">
+      <DependentUpon>FlashResource.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="howitworks.aspx.cs">
+      <DependentUpon>howitworks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="howitworks.aspx.designer.cs">
+      <DependentUpon>howitworks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\CRMMaster.Master.cs">
+      <DependentUpon>CRMMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\CRMMaster.Master.designer.cs">
+      <DependentUpon>CRMMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentComplains.aspx.cs">
+      <DependentUpon>DepartmentComplains.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DepartmentComplains.aspx.designer.cs">
+      <DependentUpon>DepartmentComplains.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MessengerCommand.ashx.cs">
+      <DependentUpon>MessengerCommand.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="myaccount.aspx.cs">
+      <DependentUpon>myaccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myaccount.aspx.designer.cs">
+      <DependentUpon>myaccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="portfolio.aspx.cs">
+      <DependentUpon>portfolio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="portfolio.aspx.designer.cs">
+      <DependentUpon>portfolio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pricing.aspx.cs">
+      <DependentUpon>pricing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pricing.aspx.designer.cs">
+      <DependentUpon>pricing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privacypolicy.aspx.cs">
+      <DependentUpon>privacypolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privacypolicy.aspx.designer.cs">
+      <DependentUpon>privacypolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="Properties\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="AddComplains.aspx.cs">
+      <DependentUpon>AddComplains.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddComplains.aspx.designer.cs">
+      <DependentUpon>AddComplains.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportsEmployees.aspx.cs">
+      <DependentUpon>ReportsEmployees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportsEmployees.aspx.designer.cs">
+      <DependentUpon>ReportsEmployees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendFile.ashx.cs">
+      <DependentUpon>SendFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UserTasks.aspx.cs">
+      <DependentUpon>UserTasks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserTasks.aspx.designer.cs">
+      <DependentUpon>UserTasks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="termsandconditions.aspx.cs">
+      <DependentUpon>termsandconditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="termsandconditions.aspx.designer.cs">
+      <DependentUpon>termsandconditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testimonials.aspx.cs">
+      <DependentUpon>testimonials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testimonials.aspx.designer.cs">
+      <DependentUpon>testimonials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Thumbnail.ashx.cs">
+      <DependentUpon>Thumbnail.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UserComplains.aspx.cs">
+      <DependentUpon>UserComplains.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserComplains.aspx.designer.cs">
+      <DependentUpon>UserComplains.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfileEdit.aspx.cs">
+      <DependentUpon>UserProfileEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfileEdit.aspx.designer.cs">
+      <DependentUpon>UserProfileEdit.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRMDLL\CRMDLL.csproj">
+      <Project>{57096633-cc68-42b2-aeea-52fa2f1499ef}</Project>
+      <Name>CRMDLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eStreamChat.Interfaces\MintCRMChat.Interfaces.csproj">
+      <Project>{1cc1bdd6-c0cf-4d68-a37f-09c7ea866f48}</Project>
+      <Name>MintCRMChat.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eStreamChat.SampleProviders\MINTCRMChat.SampleProviders.csproj">
+      <Project>{873690d8-a080-46ce-b77f-58cab590a09a}</Project>
+      <Name>MINTCRMChat.SampleProviders</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Complains.rdlc" />
+    <EmbeddedResource Include="Employees.rdlc" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1643</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:8080/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

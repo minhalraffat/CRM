@@ -1,0 +1,21 @@
+D:\Fyp CRM Latest\abd\CRM 28 May\eStreamChat.Interfaces\bin\Debug\eStreamChat.Interfaces.dll
+D:\Fyp CRM Latest\abd\CRM 28 May\eStreamChat.Interfaces\bin\Debug\eStreamChat.Interfaces.pdb
+D:\Fyp CRM Latest\abd\CRM 28 May\eStreamChat.Interfaces\obj\Debug\MintCRMChat.Interfaces.csprojResolveAssemblyReference.cache
+D:\Fyp CRM Latest\abd\CRM 28 May\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.dll
+D:\Fyp CRM Latest\abd\CRM 28 May\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.pdb
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\bin\Debug\eStreamChat.Interfaces.dll
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\bin\Debug\eStreamChat.Interfaces.pdb
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\obj\Debug\MintCRMChat.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.dll
+C:\Users\Minhal PC\Desktop\FYP Final 10 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.pdb
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\bin\Debug\eStreamChat.Interfaces.dll
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\bin\Debug\eStreamChat.Interfaces.pdb
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\obj\Debug\MintCRMChat.Interfaces.csprojResolveAssemblyReference.cache
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.dll
+E:\project CRM FYP\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.pdb
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\bin\Debug\eStreamChat.Interfaces.dll
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\bin\Debug\eStreamChat.Interfaces.pdb
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\obj\Debug\MintCRMChat.Interfaces.csprojAssemblyReference.cache
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\obj\Debug\MintCRMChat.Interfaces.csproj.CoreCompileInputs.cache
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.dll
+C:\MINHAL PC\minhal\project ka samaan\Fyp project done\Fyp project done\FYP Final 11 Aug\FYP Final 10 Aug\eStreamChat.Interfaces\obj\Debug\eStreamChat.Interfaces.pdb
